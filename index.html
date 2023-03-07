@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="('https://fonts.googleapis.com/css2? family= Source+Sans+Pro:wght@200 & display=swap');">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="icon" type="image/png" href="./favicon.ico">
+    
+</head>
+<body>
+    <script src="script.js"></script>
+    <div class="wrapper">
+        <header>
+            <nav class="navbar">
+                <div class="brand">
+                    <h2>C<span>T</span></h2>
+                </div>
+                <ul class="menu">
+                    <li><a class="active" href="#INICIO">Home</a></li>
+                    <li><a href="#SOBRE MI">Sobre mi</a></li>
+                    <li><a href="#CONTACTO">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="main">
+            <div class="info-content" id="INICIO">
+              <h1>SOY <span>CATALINA </span>TUCKER</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id vestibulum dolor, a volutpat velit. Vivamus tristique lobortis dui eu dapibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus at neque tempus, sagittis magna id, fermentum sem. Aliquam sit amet diam et lectus vulputate volutpat id sed lacus. Nunc ullamcorper sem quis elit porttitor interdum eu at est. In hendrerit vitae enim quis luctus. Pellentesque lacus elit, fermentum in nisi vel, gravida suscipit sem.</p>
+              <a download href="#"><button onclick="clic()" class="download-cv"> Descargar CV</button> </a>
+            </div>
+            <img src="Imagen_Persona-removebg-preview.png" alt="Imagen de Catalina Tucker">
+        </main>
+    </div>
+
+    <div class="about" id="SOBRE MI">
+       <img src="Imagen Persona.png"  alt="Imagen de Catalina Tucker 02">
+   
+      <div class="about-info">
+          <h2> Sobre mi</h2>
+          <div class="divider"></div>
+          <p>
+            <ul>
+              <li><b>Correo electrónico</b> catherine.tucker@ejemplo.com</li>
+              <li><b>Fecha de nacimineto:</b> 01/06/1987</li>
+              <li><b>Dirección:</b>8242 Cornejo Ave</li>
+              <li><b>Telefono:</b>(725)717-6711</li>
+            </ul>
+          </p>
+          <button onclick="clic()" class="download-cv">Leer más</button>
+         </div>
+    </div>
+
+   <div class="contact-section" id="CONTACTO">
+        <div class="contact-heading">
+          <h2> CONTACTO </h2>
+         <div class="divider"></div>
+         </div>
+
+
+
+      <div class="container-contact">
+          <img src="catalina t.jpeg"  alt="Imagen de Catalina Tucker">
+          <div class="contact-form">
+              <h4>Envie un mensaje...</h4>
+              <form class="form">
+                 <input type="text" placeholder="Name">
+                 <input type="email" placeholder="Email">
+                 <textarea name="message" placeholder="Escriba su mensaje aqui...">
+                 </textarea>
+                 <button onclick="clic()" class="btn-submit">Enviar mensaje</button>
+              </form>
+           </div> 
+        </div>
+   </div>
+
+     <footer class="footer">
+      <div class="footer-content">
+         <h2>Catalina Tucker</h2>
+       </div>
+   
+      <div class="social-network">
+         <i class="bi bi-github"></i>
+         <i class="bi bi-linkedin"></i>
+       </div>
+     </footer>
+</body>
+</html>
